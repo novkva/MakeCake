@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakeCake.DAL
+namespace MakeCake.DAL.Models
 {
-    public class Client
+    public class ClientDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

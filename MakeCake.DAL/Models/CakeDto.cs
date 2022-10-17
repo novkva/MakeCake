@@ -1,9 +1,9 @@
-﻿namespace MakeCake.DAL
+﻿namespace MakeCake.DAL.Models
 {
-    public class Cake
+    public class CakeDto
     {
         public int Id { get; set; }
-        public int Tiers { get; set; } 
+        public int Tiers { get; set; }
         public int ClientId { get; set; }
         public DateTime DeadLine { get; set; }
         public double Price { get; set; }
