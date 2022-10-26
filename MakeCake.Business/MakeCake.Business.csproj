@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MakeCake.DAL\MakeCake.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

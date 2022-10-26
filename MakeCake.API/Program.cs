@@ -1,6 +1,12 @@
+using MakeCake.Business.Services;
+using MakeCake.DAL.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<ICakeService, CakeService>();
+builder.Services.AddScoped<ICakeRepository, CakeRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

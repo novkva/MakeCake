@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MakeCake.DAL.Models
 {
-    public class TierDto
+    public class TierDto 
     {
         public int Id { get; set; }
         public int Diametr { get; set; }
