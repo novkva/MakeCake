@@ -20,7 +20,7 @@ namespace MakeCake.Business.Services
 
         public int AddCake(TierDto tier)
         {
-            FillingDto filling = new FillingDto { Id = tier.Id };
+            
             _cakeRepository.AddCake(tier);
             return 0;
         }
