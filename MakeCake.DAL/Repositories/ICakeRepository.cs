@@ -4,6 +4,6 @@ namespace MakeCake.DAL.Repositories
 {
     public interface ICakeRepository
     {
-        int AddCake(TierDto tier);
+        int TestCake(TierDto tier);
     }
 }

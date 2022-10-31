@@ -9,9 +9,24 @@ namespace MakeCake.DAL.Repositories
 {
     public class CakeRepository : ICakeRepository
     {
-        public int AddCake(TierDto tier)
+        private DataContext _context;
+
+        public CakeRepository(DataContext context)
         {
+            _context = context;
+        }
+
+        public int TestCake(TierDto tier)
+        {
+            var bis = GetBiscuit(10);
             return 0;
+        }
+
+        public BiscuitDto GetBiscuit(int id)
+        {
+            return _context.Biscuits
+                .Where(c => c.Id == id)
+                .FirstOrDefault();
         }
     }
 }

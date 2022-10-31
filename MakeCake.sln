@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCake.API", "MakeCake.API\MakeCake.API.csproj", "{277017A3-E1A6-4F6B-811D-7A3E027369B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCake.API", "MakeCake.API\MakeCake.API.csproj", "{277017A3-E1A6-4F6B-811D-7A3E027369B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCake.DAL", "MakeCake.DAL\MakeCake.DAL.csproj", "{00DBAC03-0244-4C50-AB7A-049B945BD8DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCake.DAL", "MakeCake.DAL\MakeCake.DAL.csproj", "{00DBAC03-0244-4C50-AB7A-049B945BD8DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCake.Business", "MakeCake.Business\MakeCake.Business.csproj", "{2FF4A2CB-BF31-4E57-A5E4-9DA7C416A64A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCake.Business", "MakeCake.Business\MakeCake.Business.csproj", "{2FF4A2CB-BF31-4E57-A5E4-9DA7C416A64A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

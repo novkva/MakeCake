@@ -21,7 +21,7 @@ namespace MakeCake.Business.Services
         public int AddCake(TierDto tier)
         {
             
-            _cakeRepository.AddCake(tier);
+            _cakeRepository.TestCake(tier);
             return 0;
         }
     }

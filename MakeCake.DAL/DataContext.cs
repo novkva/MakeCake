@@ -16,6 +16,9 @@ namespace MakeCake.DAL
         }
 
         public DbSet<TierDto> Tiers { get; set; }
+        public DbSet<BiscuitDto> Biscuits { get; set; }
+        public DbSet<FillingDto> Fillings { get; set; }
+        public DbSet<CreamDto> Creams { get; set; }
 
     }
 }
