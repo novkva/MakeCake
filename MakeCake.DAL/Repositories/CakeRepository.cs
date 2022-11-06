@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace MakeCake.DAL.Repositories
 {
-    public class CakeRepository : ICakeRepository
+    public class CakeRepository : BaseRepository, ICakeRepository
     {
-        private DataContext _context;
+        
 
         public CakeRepository(DataContext context)
         {
@@ -18,15 +18,22 @@ namespace MakeCake.DAL.Repositories
 
         public int TestCake(TierDto tier)
         {
-            var bis = GetBiscuit(10);
+            //var bis = GetBiscuitById(10);
             return 0;
         }
 
-        public BiscuitDto GetBiscuit(int id)
+        
+
+        public List<CreamDto> GetAllCreamByBiscuitId(int biscuitId)
         {
-            return _context.Biscuits
-                .Where(c => c.Id == id)
-                .FirstOrDefault();
+            return new List<CreamDto>();
         }
+
+        public CreamDto GetCreamById()
+        {
+            return new CreamDto();
+        }
+
+        
     }
 }

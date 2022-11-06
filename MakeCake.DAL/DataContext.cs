@@ -19,6 +19,5 @@ namespace MakeCake.DAL
         public DbSet<BiscuitDto> Biscuits { get; set; }
         public DbSet<FillingDto> Fillings { get; set; }
         public DbSet<CreamDto> Creams { get; set; }
-
     }
 }

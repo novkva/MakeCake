@@ -10,6 +10,9 @@ namespace MakeCake.DAL.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public bool IsDeleted { get; set; }
+        public List<CreamDto> Creams { get; set; }
+        public List<FillingDto> Fillings { get; set; }
 
     }
 }
